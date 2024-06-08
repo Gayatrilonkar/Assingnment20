@@ -5,7 +5,83 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<body>
+
+    <style>
+        body{
+            background-color: white;
+            margin: 0;
+            padding: 0;
+        }
+        .container{
+            display: flex;
+
+            min-height: 100vh;
+
+        }
+        .sidebar{
+            background-color: #FCDC94;
+            width: 200px;
+        }
+        .content{
+            background-color: white;
+            width: 100%;
+            padding-left: 20px;
+        }
+        .menu-item {
+            background-color: white;
+           margin: 10px;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            padding: 5px 20px;
+            cursor: pointer;
+            text-decoration: none;
     
-</body>
+        }
+        
+        .menu-img{
+            height: 30px;
+            
+            
+            
+        }
+        .menu-text{
+            padding-left: 5px;
+        
+        }
+        
+    </style>
+    <body>
+        <div class="container">
+            <div class="sidebar">
+                <a class="menu-item" href="home.html">
+                    <img src="./images/home.png" class="menu-img">
+                    <span class="menu-text"><b class="b">Home</b></span>
+                </a>
+                <a class="menu-item" href="product.html">
+                    <img src="./images/add-to-cart.png" class="menu-img">
+                    <span class="menu-text"><b class="b">product</b></span>
+                </a>
+                <a class="menu-item" href="services.html">
+                    <img src="./images/insurance.png" class="menu-img">
+                    <span class="menu-text"><b class="b">Services</b></span>
+                </a>
+                <a class="menu-item" href="about.html">
+                    <img src="./images/sign.png" class="menu-img">
+                    <span class="menu-text"><b class="b">About</b></span>
+                </a>
+                <a class="menu-item" href="contact.html">
+                    <img src="./images/phone.png" class="menu-img">
+                    <span class="menu-text"><b class="b">Contact</b></span>
+                </a>
+            </div>
+            <div class="content">
+                
+            </div>
+           
+        </div>
+
+    </body>
+
+
 </html>
