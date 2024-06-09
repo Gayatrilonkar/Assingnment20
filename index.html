@@ -11,19 +11,25 @@
        
         
            
-       
+        @media screen and (max-width: 600px) {
+            .sidebar{
+                display: none;
+            }
+        }
+        
+        
         
     </style>
     <body>
         <div class="container">
-            <div class="sidebar">
+            <a class="sidebar" href="index.html">
                 <div class="menu-item active-menu">
                     <img src="./images/home.png" class="menu-img">
                     <span class="menu-text"> Home</span>
                     
 
 
-                </div>
+                </a>
                 
                 <a class="menu-item" href="product.html">
                     <img src="./images/add-to-cart.png" class="menu-img">
@@ -49,8 +55,24 @@
             </div>
            
         </div>
-
+        <div class="bottom-navigation-bar"> 
+            <a class="bottom-menu-item " href="./index.html">
+                <img src="./images/home.png" class="bottom-menu-icon">
+            </a>
+            <a class="bottom-menu-item" href="product.html">
+                <img src="./images/add-to-cart.png" class="bottom-menu-icon">
+            </a>
+            <a class="bottom-menu-item" href="services.html">
+                <img src="./images/insurance.png" class="bottom-menu-icon">
+            </a>
+            <a class="bottom-menu-item" href="about.html">
+                <img src="./images/sign.png" class="bottom-menu-icon">
+            </a>
+            <a class="bottom-menu-item" href="contact.html">
+                <img src="./images/phone.png" class="bottom-menu-icon">
+            </a>
+        </div>
+            
     </body>
-
 
 </html>

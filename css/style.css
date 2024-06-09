@@ -46,3 +46,35 @@ body{
 .active-menu:hover{
     background-color: #A7E6FF;
 }
+
+.bottom-navigation-bar{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #FCDC94;
+    color: black;
+    display: none;
+}
+.bottom-menu-icon{
+    height: 35px;
+    background-color: white;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: #A7E6FF;
+}
+
+
+@media screen and (max-width: 600px) {
+    .bottom-navigation-bar{
+        display: flex;
+        justify-content: space-around;
+
+    }
+    
+  
+     
+    }
+
+
