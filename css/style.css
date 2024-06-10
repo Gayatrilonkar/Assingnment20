@@ -145,7 +145,30 @@ body {
 }
 .img3{
     height: 110px;
+} 
+.input-box{
+    height: 20px;
+    width: 500px;
+    justify-content: center;
+    text-align: center;
+    padding-top: 30px;
+    border-radius: 10px;
+    border-color: black;
 }
+.img4{
+    height: 50px;
+   
+    
+   
+}
+.input-box:hover{
+    transition: 1s;
+    transform: scale(1.1);
+}
+
+
+
+
 
 
 @media screen and (max-width: 600px) {
